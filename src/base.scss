@@ -1,0 +1,789 @@
+
+.flow-space-300 {
+  --flow-space: 0.75rem
+}
+
+.flow-space-400 {
+  --flow-space: 1rem
+}
+
+.flow-space-500 {
+  --flow-space: 1.33rem
+}
+
+.flow-space-600 {
+  --flow-space: 1.77rem
+}
+
+.flow-space-700 {
+  --flow-space: 2.36rem
+}
+
+.flow-space-800 {
+  --flow-space: 3.15rem
+}
+
+.flow-space-900 {
+  --flow-space: 4.2rem
+}
+
+.flow-space-major {
+  --flow-space: 5.6rem
+}
+
+.font-base {
+  font-family: Literata, Georgia, serif
+}
+
+.font-sans {
+  font-family: "Red Hat Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+.gap-top-300 {
+  margin-top: .75rem
+}
+
+.gap-top-400 {
+  margin-top: 1rem
+}
+
+.gap-top-500 {
+  margin-top: 1.33rem
+}
+
+.gap-top-600 {
+  margin-top: 1.77rem
+}
+
+.gap-top-700 {
+  margin-top: 2.36rem
+}
+
+.gap-top-800 {
+  margin-top: 3.15rem
+}
+
+.gap-top-900 {
+  margin-top: 4.2rem
+}
+
+.gap-top-major {
+  margin-top: 5.6rem
+}
+
+.leading-loose {
+  line-height: 1.7
+}
+
+.leading-tight {
+  line-height: 1.3
+}
+
+.leading-flat {
+  line-height: 1.1
+}
+
+.measure-micro {
+  max-width: 10ch
+}
+
+.measure-compact {
+  max-width: 30ch
+}
+
+.measure-short {
+  max-width: 40ch
+}
+
+.measure-long {
+  max-width: 65ch
+}
+
+.text-300 {
+  font-size: .75rem
+}
+
+.text-400 {
+  font-size: 1rem
+}
+
+.text-500 {
+  font-size: 1.33rem
+}
+
+.text-600 {
+  font-size: 1.77rem
+}
+
+.text-700 {
+  font-size: 2.36rem
+}
+
+.text-800 {
+  font-size: 3.15rem
+}
+
+.text-900 {
+  font-size: 4.2rem
+}
+
+.text-major {
+  font-size: 5.6rem
+}
+
+.weight-normal {
+  font-weight: 400
+}
+
+.weight-bold {
+  font-weight: 900
+}
+
+@media screen and (min-width:37em) {
+  .md\:flow-space-300 {
+      --flow-space: 0.75rem
+  }
+
+  .md\:flow-space-400 {
+      --flow-space: 1rem
+  }
+
+  .md\:flow-space-500 {
+      --flow-space: 1.33rem
+  }
+
+  .md\:flow-space-600 {
+      --flow-space: 1.77rem
+  }
+
+  .md\:flow-space-700 {
+      --flow-space: 2.36rem
+  }
+
+  .md\:flow-space-800 {
+      --flow-space: 3.15rem
+  }
+
+  .md\:flow-space-900 {
+      --flow-space: 4.2rem
+  }
+
+  .md\:flow-space-major {
+      --flow-space: 5.6rem
+  }
+
+  .md\:gap-top-300 {
+      margin-top: .75rem
+  }
+
+  .md\:gap-top-400 {
+      margin-top: 1rem
+  }
+
+  .md\:gap-top-500 {
+      margin-top: 1.33rem
+  }
+
+  .md\:gap-top-600 {
+      margin-top: 1.77rem
+  }
+
+  .md\:gap-top-700 {
+      margin-top: 2.36rem
+  }
+
+  .md\:gap-top-800 {
+      margin-top: 3.15rem
+  }
+
+  .md\:gap-top-900 {
+      margin-top: 4.2rem
+  }
+
+  .md\:gap-top-major {
+      margin-top: 5.6rem
+  }
+
+  .md\:measure-micro {
+      max-width: 10ch
+  }
+
+  .md\:measure-compact {
+      max-width: 30ch
+  }
+
+  .md\:measure-short {
+      max-width: 40ch
+  }
+
+  .md\:measure-long {
+      max-width: 65ch
+  }
+
+  .md\:text-300 {
+      font-size: .75rem
+  }
+
+  .md\:text-400 {
+      font-size: 1rem
+  }
+
+  .md\:text-500 {
+      font-size: 1.33rem
+  }
+
+  .md\:text-600 {
+      font-size: 1.77rem
+  }
+
+  .md\:text-700 {
+      font-size: 2.36rem
+  }
+
+  .md\:text-800 {
+      font-size: 3.15rem
+  }
+
+  .md\:text-900 {
+      font-size: 4.2rem
+  }
+
+  .md\:text-major {
+      font-size: 5.6rem
+  }
+}
+
+@media screen and (min-width:62em) {
+  .lg\:flow-space-300 {
+      --flow-space: 0.75rem
+  }
+
+  .lg\:flow-space-400 {
+      --flow-space: 1rem
+  }
+
+  .lg\:flow-space-500 {
+      --flow-space: 1.33rem
+  }
+
+  .lg\:flow-space-600 {
+      --flow-space: 1.77rem
+  }
+
+  .lg\:flow-space-700 {
+      --flow-space: 2.36rem
+  }
+
+  .lg\:flow-space-800 {
+      --flow-space: 3.15rem
+  }
+
+  .lg\:flow-space-900 {
+      --flow-space: 4.2rem
+  }
+
+  .lg\:flow-space-major {
+      --flow-space: 5.6rem
+  }
+
+  .lg\:gap-top-300 {
+      margin-top: .75rem
+  }
+
+  .lg\:gap-top-400 {
+      margin-top: 1rem
+  }
+
+  .lg\:gap-top-500 {
+      margin-top: 1.33rem
+  }
+
+  .lg\:gap-top-600 {
+      margin-top: 1.77rem
+  }
+
+  .lg\:gap-top-700 {
+      margin-top: 2.36rem
+  }
+
+  .lg\:gap-top-800 {
+      margin-top: 3.15rem
+  }
+
+  .lg\:gap-top-900 {
+      margin-top: 4.2rem
+  }
+
+  .lg\:gap-top-major {
+      margin-top: 5.6rem
+  }
+
+  .lg\:measure-micro {
+      max-width: 10ch
+  }
+
+  .lg\:measure-compact {
+      max-width: 30ch
+  }
+
+  .lg\:measure-short {
+      max-width: 40ch
+  }
+
+  .lg\:measure-long {
+      max-width: 65ch
+  }
+
+  .lg\:text-300 {
+      font-size: .75rem
+  }
+
+  .lg\:text-400 {
+      font-size: 1rem
+  }
+
+  .lg\:text-500 {
+      font-size: 1.33rem
+  }
+
+  .lg\:text-600 {
+      font-size: 1.77rem
+  }
+
+  .lg\:text-700 {
+      font-size: 2.36rem
+  }
+
+  .lg\:text-800 {
+      font-size: 3.15rem
+  }
+
+  .lg\:text-900 {
+      font-size: 4.2rem
+  }
+
+  .lg\:text-major {
+      font-size: 5.6rem
+  }
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box
+}
+
+ol[class],
+ul[class] {
+  padding: 0;
+  list-style: none
+}
+
+blockquote,
+body,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+ol[class],
+p,
+ul[class] {
+  margin: 0
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+  text-decoration-color: #fa576e
+}
+
+img {
+  max-width: 100%;
+  display: block
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit
+}
+
+@media (prefers-reduced-motion:reduce) {
+  * {
+      animation-duration: 10ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 10ms !important;
+      scroll-behavior: auto !important
+  }
+}
+
+:root {
+  --flow-space: 1.77rem
+}
+
+:focus {
+  outline: #513aa6 dashed 2px;
+  outline-offset: .25rem
+}
+
+main:focus {
+  outline: 0
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+  // font-family: Literata, Georgia, serif;
+  font-family: "Red Hat Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.1
+}
+
+h1{
+  color: rgb(0, 0, 0);
+
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  // position: absolute;
+  color: #ffffff00;
+  z-index: 2;
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a {
+  color: #ffffffaf;
+}
+
+
+::selection {
+  color: #f9f4e3;
+  background: rgba(38, 49, 71, .99)
+}
+
+::-webkit-scrollbar {
+  height: 1rem
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: 1px solid #505c73;
+  border-radius: .25rem
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #38445b;
+  border-radius: .25rem
+}
+.wrapper {
+  max-width: 70rem;
+  padding: 0 1.33rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative
+}
+
+
+.flow>*+* {
+  margin-top: var(--flow-space, 1.77rem)
+}
+
+
+.skip-link {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 99
+}
+
+.skip-link:not(:focus),
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap
+}
+
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 16rem), 1fr));
+  grid-gap: var(--auto-grid-gap, 1.33rem)
+}
+
+.centerlink {
+  text-align: center;
+}
+.centerlink a {
+  display: inline-block;
+  text-decoration: none;
+  border: solid 1px black;
+  font-size: 1.33rem;
+  font-weight: bold;
+  background-color: #f0d91bff;
+  padding: 1rem;
+  border-radius: .5rem  
+}
+
+.citation  {
+  padding-top: 4rem;
+  text-align: right; 
+ }
+ 
+@media (min-width:37em) {
+
+  .citation  {
+    padding-top: 0;
+   }  }
+
+.citation p {
+ padding-left: 10%;
+}
+
+.citation p:first-child:after {
+  content: '"';
+}
+
+.citation p:first-child {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.citation p:first-child:before {
+  content: '"';
+}
+
+.news {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+    .news > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin: 2em;
+  border: 1px solid #02005e34;
+  border-radius: 10px;
+  // box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  overflow: hidden;
+}
+
+.news div div p {
+  padding: .5em;
+  display: block;
+  max-width: 100%;
+}
+@media (min-width:37em) {
+.news > div {
+  flex: 0.4
+}
+}
+
+.news img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+@media (min-width:37em) {
+  .frame::before {
+      top: -.5rem;
+      left: -.5rem;
+      border-width: .25rem
+  }
+
+  .headline {
+      font-size: 3.15rem
+  }
+
+
+  .news {
+    flex-direction: row;
+    margin-left: -1em;
+    }
+
+    .news > * {
+      margin: 0;
+      margin-left: 1em;
+      border: 1px solid #02005e34;
+      border-radius: 10px;
+    }
+}
+
+@media (min-width:62em) {
+  .headline {
+      font-size: 4.2rem
+  }
+}
+
+.headline::after {
+  content: "."
+}
+
+.headline[data-highlight=dark]::after {
+  color: #38445b
+}
+
+.headline[data-highlight=primary]::after {
+  color: #513aa6
+}
+
+.headline[data-highlight=secondary]::after {
+  color: #6ac2b6
+}
+
+.headline[data-highlight=quaternary]::after {
+  color: #ff7f5c
+}
+
+.headline[data-highlight=quinary]::after {
+  color: #fa576e
+}
+
+.jumbotron__heading {
+  margin-bottom: -1.33rem;
+  font-weight: 900;
+}
+
+.subfigures {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.subfigures  > figcaption {
+  padding-top: .5em;
+}
+
+.subfigures > .subfigures-wrap { 
+  display: flex;
+  margin-left: -1em;
+}
+
+.subfigures > .subfigures-wrap > * { 
+  padding-left: 1em;
+}
+
+.subfigures img {
+  width: 100%;
+  height: auto;
+}
+
+.opinio { overflow: hidden; }
+.opinio_tray { display: block; width: auto; 
+  white-space: nowrap;}
+.opinio_tray > * { height: 100%; display: inline-block; }
+.opinio_tray img { height: 100%; width: auto; }
+.opinio_tray :nth-child(n+2){ margin-left: 1em;  }
+.opinio_initial.opinio { overflow: hidden; width: 100%; height: auto;}
+.opinio_initial .opinio_tray { display: flex;height: auto; position: relative; }
+.opinio_initial .opinio_tray > * { height: auto; }
+.opinio_initial .opinio_tray img { height: auto; width: 100%;}
+
+@media (max-width:37em) {
+.opinio_initial .opinio_tray :nth-child(n+2){ display: none; }
+}
+@media (min-width:37em) {
+.opinio_initial .opinio_tray :nth-child(n+4){ display: none; }
+}
+
+
+html, body, #root, .site-wrap {
+  height: 100%;
+  width: 100%;
+}
+body {
+  text-rendering: optimizeSpeed;
+  background: #f9f4e3;
+  color: #263147;
+  line-height: 1.5;
+  font-size: .9rem;
+
+  background: linear-gradient(#8bc3ff,#598cd3);
+  // no-repeat center/cover url('./illustrasjoner/hav.jpg');
+  font-family: "Red Hat Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
+}
+
+@media (orientation: landscape) and (min-width: 52em),
+(orientation: portrait) and (min-width: 49em) {
+  body {
+
+  font-size: 1rem;
+  }
+}
+
+@media (min-width: 65em) {
+  body {
+    font-size: 1.1rem;
+  }
+}
+.site-wrap {
+  overflow-x: hidden;
+  // padding: 5em 7em;
+}
+
+.page {
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+  width: 100%;
+  
+}
+
+.page::before {
+  z-index: -1;
+  display:block;
+  content: " ";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: #ffffff;
+  clip-path: padding-box polygon(47.47348403930664% 103.5053939819336%,47.50679397583008% 105.59508514404297%,47.54010009765625% 107.68477630615234%,47.57341003417969% 109.77446746826172%,47.09855270385742% 111.36400604248047%,45.00859451293945% 111.36392974853516%,42.91864013671875% 111.36385345458984%,40.82868576049805% 111.36377716064453%,38.738731384277344% 111.36370849609375%,36.648773193359375% 111.36363220214844%,34.558815002441406% 111.36355590820312%,32.46886444091797% 111.36347961425781%,30.37890625% 111.3634033203125%,28.288951873779297% 111.36333465576172%,26.19899559020996% 111.3632583618164%,24.109041213989258% 111.3631820678711%,22.019086837768555% 111.36310577392578%,19.929128646850586% 111.363037109375%,17.839174270629883% 111.36296081542969%,15.74921989440918% 111.36288452148438%,13.659263610839844% 111.36280822753906%,11.56930923461914% 111.36273956298828%,9.479354858398438% 111.36266326904297%,7.389400482177734% 111.36258697509766%,5.299442291259766% 111.36251068115234%,3.2094879150390625% 111.36243438720703%,1.1195335388183594% 111.36236572265625%,-0.9704246520996094% 111.36228942871094%,-3.0603790283203125% 111.36221313476562%,-5.150333404541016% 111.36213684082031%,-7.240287780761719% 111.36206817626953%,-9.330245971679688% 111.36199188232422%,-11.420196533203125% 111.3619155883789%,-13.510154724121094% 111.3618392944336%,-13.988786697387695% 109.74894714355469%,-13.990796089172363% 107.65899658203125%,-13.992804527282715% 105.56903839111328%,-13.994813919067383% 103.47908020019531%,-13.99682331085205% 101.3891372680664%,-13.998832702636719% 99.29917907714844%,-14.00084114074707% 97.20922088623047%,-14.002850532531738% 95.11927032470703%,-14.004859924316406% 93.02931213378906%,-14.006869316101074% 90.9393539428711%,-14.008877754211426% 88.84941101074219%,-14.010887145996094% 86.75944519042969%,-14.012896537780762% 84.66950225830078%,-14.01490592956543% 82.57954406738281%,-14.016914367675781% 80.48958587646484%,-14.01892375946045% 78.3996353149414%,-14.020933151245117% 76.30967712402344%,-14.022942543029785% 74.2197265625%,-14.024950981140137% 72.12977600097656%,-14.026960372924805% 70.03981018066406%,-14.028969764709473% 67.94985961914062%,-14.030978202819824% 65.85990905761719%,-14.032987594604492% 63.76995086669922%,-14.03499698638916% 61.68000030517578%,-14.037006378173828% 59.59004211425781%,-14.03901481628418% 57.50008773803711%,-14.041024208068848% 55.41013717651367%,-14.043033599853516% 53.3201789855957%,-14.045042991638184% 51.230224609375%,-14.047051429748535% 49.14027404785156%,-14.049060821533203% 47.050323486328125%,-14.051070213317871% 44.960357666015625%,-14.053079605102539% 42.870399475097656%,-14.05508804321289% 40.78044891357422%,-14.057097434997559% 38.69049072265625%,-14.059106826782227% 36.60054016113281%,-14.061116218566895% 34.510589599609375%,-14.063124656677246% 32.420623779296875%,-14.065134048461914% 30.330673217773438%,-14.067143440246582% 28.24072265625%,-14.06915283203125% 26.1507568359375%,-14.071161270141602% 24.060806274414062%,-14.07317066192627% 21.970863342285156%,-14.075180053710938% 19.880897521972656%,-14.077189445495605% 17.79094696044922%,-14.079197883605957% 15.700996398925781%,-14.081207275390625% 13.611030578613281%,-14.083216667175293% 11.521080017089844%,-14.085226058959961% 9.431129455566406%,-14.087234497070312% 7.3411712646484375%,-14.08924388885498% 5.251220703125%,-14.091253280639648% 3.1612701416015625%,-14.093262672424316% 1.0713043212890625%,-14.095271110534668% -1.018646240234375%,-14.097280502319336% -3.1085968017578125%,-14.099289894104004% -5.19854736328125%,-14.101299285888672% -7.28851318359375%,-14.103307723999023% -9.378456115722656%,-14.105317115783691% -11.468406677246094%,-14.10732650756836% -13.558372497558594%,-14.109335899353027% -15.648323059082031%,-14.111344337463379% -17.73827362060547%,-13.223584175109863% -18.933958053588867%,-11.133670806884766% -18.921377182006836%,-9.043758392333984% -18.908796310424805%,-6.953830242156982% -18.896215438842773%,-4.863917350769043% -18.883634567260742%,-2.7740049362182617% -18.87105369567871%,-0.6840763092041016% -18.858474731445312%,1.4058361053466797% -18.84589385986328%,3.495748519897461% -18.83331298828125%,5.585676193237305% -18.82073211669922%,7.675590515136719% -18.808151245117188%,9.7655029296875% -18.795570373535156%,11.855430603027344% -18.782991409301758%,13.945343017578125% -18.770410537719727%,16.03525733947754% -18.757829666137695%,18.12518310546875% -18.745248794555664%,20.21509552001953% -18.732667922973633%,22.305011749267578% -18.7200870513916%,24.39492416381836% -18.707508087158203%,26.484851837158203% -18.694927215576172%,28.574764251708984% -18.68234634399414%,30.664676666259766% -18.66976547241211%,32.75460433959961% -18.657184600830078%,34.84451675415039% -18.644603729248047%,36.93442916870117% -18.63202476501465%,39.024356842041016% -18.619443893432617%,41.11427307128906% -18.606863021850586%,43.204185485839844% -18.594282150268555%,45.29411315917969% -18.581701278686523%,47.38404083251953% -18.569120407104492%,49.47393798828125% -18.556541442871094%,51.56386947631836% -18.543960571289062%,53.65376663208008% -18.53137969970703%,55.74369430541992% -18.518798828125%,57.833621978759766% -18.50621795654297%,59.923519134521484% -18.493637084960938%,62.01344680786133% -18.48105812072754%,64.10337829589844% -18.468477249145508%,66.19326782226562% -18.455896377563477%,68.283203125% -18.443315505981445%,70.31488800048828% -18.05559730529785%,71.82929229736328% -16.684459686279297%,72.02165985107422% -14.63475227355957%,71.41875457763672% -12.638412475585938%,70.50556945800781% -10.759663581848145%,69.44173431396484% -8.961104393005371%,68.29136657714844% -7.2163801193237305%,67.08645629882812% -5.508814811706543%,65.845458984375% -3.827219247817993%,64.58020782470703% -2.16377329826355%,63.298858642578125% -0.5127198696136475%,62.007633209228516% 1.1306523084640503%,60.711212158203125% 2.7699389457702637%,59.413818359375% 4.408417224884033%,58.118648529052734% 6.048686981201172%,56.829078674316406% 7.69337272644043%,55.54829025268555% 9.344855308532715%,54.27930450439453% 11.005471229553223%,53.02545166015625% 12.677517890930176%,51.790157318115234% 14.363295555114746%,50.57732391357422% 16.065343856811523%,49.3914794921875% 17.78627586364746%,48.23762130737305% 19.528736114501953%,47.1219482421875% 21.295944213867188%,46.05181121826172% 23.0910701751709%,45.03669738769531% 24.917844772338867%,44.0881233215332% 26.77998924255371%,43.22114944458008% 28.681434631347656%,42.4554443359375% 30.62569236755371%,41.816856384277344% 32.615234375%,41.33976364135742% 34.64929962158203%,41.039146423339844% 36.7171745300293%,40.8283576965332% 38.79630661010742%,40.722412109375% 40.883296966552734%,40.755985260009766% 42.9724235534668%,40.9547004699707% 45.05234146118164%,41.2979736328125% 47.1136589050293%,41.7051887512207% 49.16355514526367%,42.08939743041992% 51.21784210205078%,42.403564453125% 53.28386306762695%,42.63742446899414% 55.36056900024414%,42.79706954956055% 57.4443244934082%,42.8930549621582% 59.532012939453125%,42.9354362487793% 61.62149429321289%,42.932884216308594% 63.711421966552734%,42.89229965209961% 65.8009033203125%,42.8194465637207% 67.88958740234375%,42.718711853027344% 69.97710418701172%,42.59379577636719% 72.06331634521484%,42.4476203918457% 74.14817810058594%,42.28264236450195% 76.23162078857422%,42.10097122192383% 78.31360626220703%,41.90428161621094% 80.3943099975586%,41.72458267211914% 82.47642517089844%,41.6251335144043% 84.56388092041016%,41.60927963256836% 86.6536636352539%,41.679649353027344% 88.7422866821289%,41.84068298339844% 90.82581329345703%,42.099124908447266% 92.8995361328125%,42.46553421020508% 94.95684051513672%,42.95718002319336% 96.98775482177734%,43.603736877441406% 98.97447204589844%,44.4622802734375% 100.87821197509766%,45.662235260009766% 102.58165740966797%,47.47348403930664% 103.50544738769531%);
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

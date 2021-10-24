@@ -1,0 +1,39 @@
+.site-foot {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 6rem 0 3rem;
+  justify-content: space-between;
+}
+
+@media (orientation: landscape) and (min-width: 52em),
+  (orientation: portrait) and (min-width: 47em) {
+  .site-foot {
+    padding: 2rem 6rem;
+  }
+}
+
+.site-foot__heading {
+  width: 100%;
+}
+
+.site-foot__support {
+}
+
+.site-foot__funds {
+  padding-top: 2rem;
+}
+
+.site-foot__support svg {
+  width: 20rem;
+  height: auto;
+}
+
+.site-foot__funds svg {
+  width: 10rem;
+  height: auto;
+}
+
+.site-foot__footer {
+  width: 100%;
+  text-align: center;
+}
